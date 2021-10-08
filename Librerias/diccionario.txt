@@ -1,0 +1,44 @@
+#JSGF V1.0;
+grammar sentence;
+ 
+public <sentence> =
+[<dato0>]
+[<dato1>]
+[<dato2>]
+[<dato3>]
+[<dato4>]
+[<dato1><dato2><dato3><dato4>]
+[<dato5>][<dato6>][<dato7>][<dato8>][<dato9>][<dato10>][<dato11>][<dato12>][<dato13>][<dato14>]
+[<dato15>]
+[<dato16>]
+[<dato17>]
+[<dato18>]
+[<dato19>]
+[<dato20>]
+[<dato21>];
+
+
+<dato0>=Mostrar_Ventas;
+<dato1>=Total_ventas_sur_sonora;
+<dato2>=Total_ventas_centro_sinaloa;
+<dato3>=Total_ventas_norte_morelos;
+<dato4>=Ventas_Carmen; 
+<dato5>=Ventas_Ricardo;
+<dato6>=Ventas_Raul;
+<dato7>=Ventas_sucursal_sur_sonora;
+<dato8>=Ventas_morelos_sucursal_norte;
+<dato9>=Ventas_sucursal_centro_sinaloa;
+<dato10>=Carmen;
+<dato11>=Raul;
+<dato12>=Ricardo;
+<dato13>=Ventas_sonora_ricardo;
+<dato14>=Morelos_ventas_de_carmen;
+<dato15>=Sonora_total_ventas_ricardo;
+<dato16>=Total_carmen_Morelos;
+<dato17>=Total_raul_jalisco;
+<dato18>=Jalisco_Raul;
+<dato19>=Salir;
+<dato20>=Limpiar;
+<dato21>=Jalisco;
+
+
